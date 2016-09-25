@@ -145,7 +145,7 @@ RUN pip --no-cache-dir install git+git://github.com/Theano/Theano.git@${THEANO_V
 
 # Install Keras
 RUN pip --no-cache-dir install git+git://github.com/fchollet/keras.git@${KERAS_VERSION}
-RUN pip install --upgrade keras
+# RUN pip install --upgrade keras
 
 
 # Install Lasagne
